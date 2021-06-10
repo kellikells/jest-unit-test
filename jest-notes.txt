@@ -1,0 +1,28 @@
+*Arrange - render this component
+*Act - what is done ('click on this')
+*Assert - 
+
+
+1- npm init -y
+2- npm i --save-dev jest
+3- [package.json]
+    change: 
+        "scripts": {
+            "test": "jest --coverage"
+        }
+
+
+
+(this will run tests)  
+npm test 
+
+*file naming:
+    sameNameAs.test.js
+
+
+--------------------
+1* require the file that is being tested
+
+2*      test('describe what the test is doing', () => {
+    expect(<whatever function).toBe(<answerExpected>)
+})
